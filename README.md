@@ -27,4 +27,7 @@ This minimalist website reflects my interdisciplinary journey as a **physicist**
 - Custom SVG icons and artwork
 
 ---
+## View live 
+
+[GitHub Pages Deployment](https://nathuber.github.io/Personal-Website/)
 
