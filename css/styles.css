@@ -54,16 +54,23 @@ h1 {
 /* Responsive text */
 @media screen and (max-width: 768px) {
   h1 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    margin: 1.8rem;
+  }
+
+  .hero-image {
+  max-width: 90%;
+  /* border-radius: 1.5rem;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1); */
   }
 
   .caption {
-    font-size: 0.85rem;
+    font-size: 0.80rem;
   }
 
   .icon-menu img {
-    width: 42px;
-    height: 42px;
+    width: 48px;
+    height: 48px;
   }
 }
 
@@ -146,4 +153,28 @@ h1 {
   .about-text {
     text-align: center;
   }
+
+  .interests {
+    
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+  }
+
+  .interest {
+    width: 60px;
+  }
+
+  .interest img {
+    width: 58px;
+    height: 58px;
+    margin-bottom: 0.3rem;
+  }
+
+  .ink-art {
+    max-width: 110%;
+    /* border-radius: 1rem;
+    box-shadow: 0 1px 10px rgba(0,0,0,0.1); */
+  }
+
 }
