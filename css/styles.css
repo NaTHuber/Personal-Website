@@ -10,7 +10,7 @@ body {
 h1 {
   font-family: 'Fira Mono', monospace;
   margin-top: 2rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .hero {
@@ -178,3 +178,93 @@ h1 {
   }
 
 }
+
+  /* Memorias Section */
+  .memories-title {
+    /* font-family: 'Playfair Display', serif; */
+    font-size: 2rem;
+    margin-top: 2rem;
+    color: #2a3b5d;
+  }
+
+  .gallery-intro {
+    background-color: #c2c2c2;
+    margin: 1rem auto 2rem;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    max-width: 850px;
+    font-size: 0.95rem;
+    color: #1a1a1a;
+    font-family: 'Fira Mono', monospace;
+  }
+
+  .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  .gallery-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0rem;
+    padding: 2rem;
+  }
+
+  .gallery-item {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .gallery-item-img {
+    width: 100%;
+    /* border-radius: 0.5rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15); */
+  }
+
+
+  .arrow-icon {
+    width: 20px;
+    margin-right: 0.5rem;
+  }
+
+  .captiongallery {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+    font-family: 'Fira Mono', monospace;
+    font-size: 0.9rem;
+    color: #222;
+  }
+
+  .captiongallery.gold {
+    color: #9a8324;
+  }
+
+
+  /* Arte intermedio */
+  .gallery-art img {
+    width: 300px;
+    height: auto;
+    /* opacity: 0.8; */
+  }
+
+  /* Responsive */
+  @media screen and (max-width: 768px) {
+    .gallery-container {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .gallery-art img {
+      width: 150px;
+      margin: 1.5rem 0;
+    }
+  }
+
