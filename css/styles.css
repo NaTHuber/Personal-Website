@@ -260,11 +260,37 @@ h1 {
     .gallery-container {
       flex-direction: column;
       align-items: center;
+      gap: 1.5rem;
+      padding: 1.5rem;
+    }
+
+    .gallery-section{
+      gap: 0rem;
+      padding: 2rem;
     }
 
     .gallery-art img {
       width: 150px;
       margin: 1.5rem 0;
     }
+
+    .gallery-intro {
+      margin: 1rem auto 1rem;
+      padding: 1rem 1rem;
+      border-radius: 1rem;
+      max-width: 300px;
+      font-size: 0.80rem;
+    }
+
+    /* .gallery-item {
+      max-width: 800px;
+    } */
+
+    .gallery-item-img {
+      width: 120%;
+      /* border-radius: 0.5rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15); */
+    }
+
   }
 
