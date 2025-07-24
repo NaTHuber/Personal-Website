@@ -13,6 +13,13 @@ h1 {
   font-size: 1.5rem;
 }
 
+
+.horizontal-rule {
+  border: 1px solid; 
+  width: 50%; 
+  margin: 20px auto;
+}
+
 .hero {
   margin: 2rem auto;
   padding: 0 1rem;
@@ -51,6 +58,8 @@ h1 {
   filter: brightness(1.2);
 }
 
+
+
 /* Responsive text */
 @media screen and (max-width: 768px) {
   h1 {
@@ -75,6 +84,14 @@ h1 {
 }
 
 /* About Page Layout */
+
+.about-title {
+    /* font-family: 'Playfair Display', serif; */
+    font-size: 2rem;
+    margin-top: 2rem;
+    /* color: #2a3b5d; */
+  }
+
 .about-container {
   display: flex;
   flex-wrap: wrap;
@@ -184,7 +201,7 @@ h1 {
     /* font-family: 'Playfair Display', serif; */
     font-size: 2rem;
     margin-top: 2rem;
-    color: #2a3b5d;
+    /* color: #2a3b5d; */
   }
 
   .gallery-intro {
@@ -293,4 +310,113 @@ h1 {
     }
 
   }
+
+
+  /* Ideas Section */
+.ideas-title {
+  /* font-family: 'Playfair Display', serif; */
+  font-size: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.ideas-tabs {
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto 2rem;
+  gap: 1rem;
+}
+
+.tab {
+  background-color: #d4cda3;
+  padding: 0.8rem 2rem;
+  border-radius: 4px;
+  font-family: 'Fira Mono', monospace;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.2s ease;
+}
+
+.tab.active {
+  font-weight: bold;
+  background-color: #c5bb91;
+}
+
+.tab:hover {
+  background-color: #e0d9ae;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.project-card {
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  max-width: 280px;
+  transition: transform 0.2s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.03);
+}
+
+.image-placeholder {
+  align-items: center;
+  background-color: #ccc;
+  height: 150px;
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+.image-placeholder img{
+  width: 100%;
+}
+
+.card-info {
+  padding: 1rem;
+  text-align: center;
+  font-family: 'Fira Mono', monospace;
+}
+
+.card-icon {
+  width: 40px;
+  margin-bottom: 0.5rem;
+}
+
+.card-info h3 {
+  font-size: 1.1rem;
+  margin: 0.2rem 0;
+}
+
+.card-info p {
+  font-size: 0.80rem;
+  color: #555;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .projects-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ideas-tabs {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tab {
+    width: 70%;
+    text-align: center;
+  }
+}
+
 
