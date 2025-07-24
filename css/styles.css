@@ -160,6 +160,35 @@ h1 {
   box-shadow: 0 1px 10px rgba(0,0,0,0.1); */
 }
 
+.curriculum-section {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+  padding: 1rem;
+}
+
+.curriculum-btn{
+  background-color: #a58f34;
+  color: #f9f8f4;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: 'Fira Mono', monospace;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.curriculum-btn:hover{
+   background-color: #8a782c;
+   transform: scale(1.05);
+   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
 /* Responsive */
 @media screen and (max-width: 768px) {
   .about-container {
@@ -359,7 +388,7 @@ h1 {
     }
 
     .modal {
-      padding-top: 10rem;
+      padding-top: 14rem;
       align-items: center;
       
     }
@@ -370,7 +399,7 @@ h1 {
     }
 
     .close {
-      top: 7rem;
+      top: 11rem;
       right: 1rem;
     }
 
