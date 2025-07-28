@@ -1,0 +1,62 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Ventana del navegador -->
+  <rect x="40" y="80" width="320" height="280" rx="20" ry="20" 
+        fill="none" stroke="#2c2c2c" stroke-width="8"/>
+  
+  <!-- Barra superior del navegador -->
+  <rect x="40" y="80" width="320" height="50" rx="20" ry="20" 
+        fill="#f0f0f0" stroke="#2c2c2c" stroke-width="8"/>
+  <!-- <rect x="40" y="115" width="320" height="15" fill="#f0f0f0"/> -->
+  
+  <!-- Botones de la ventana -->
+  <circle cx="70" cy="105" r="6" fill="#2c2c2c"/>
+  <circle cx="90" cy="105" r="6" fill="#2c2c2c"/>
+  <circle cx="110" cy="105" r="6" fill="#2c2c2c"/>
+  
+  <!-- Línea separadora -->
+  <line x1="40" y1="130" x2="360" y2="130" stroke="#2c2c2c" stroke-width="2"/>
+  
+  <!-- Barra lateral -->
+  <rect x="70" y="150" width="8" height="180" fill="#2c2c2c" rx="4"/>
+  
+  <!-- Etiquetas de código HTML -->
+  <!-- < -->
+  <path d="M130 160 L115 175 L130 190" fill="none" stroke="#2c2c2c" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- / -->
+  <line x1="145" y1="195" x2="165" y2="155" stroke="#2c2c2c" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- > -->
+  <path d="M180 160 L195 175 L180 190" fill="none" stroke="#2c2c2c" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Líneas de código simuladas -->
+  <!-- Línea 1 -->
+  <rect x="120" y="215" width="25" height="8" fill="#2c2c2c" rx="2"/>
+  <rect x="155" y="215" width="35" height="8" fill="#2c2c2c" rx="2"/>
+  
+  <!-- Línea 2 -->
+  <rect x="140" y="235" width="85" height="8" fill="#2c2c2c" rx="2"/>
+  <rect x="235" y="235" width="45" height="8" fill="#2c2c2c" rx="2"/>
+  
+  <!-- Línea 3 -->
+  <rect x="140" y="255" width="8" height="8" fill="#2c2c2c" rx="2"/>
+  <rect x="158" y="255" width="65" height="8" fill="#2c2c2c" rx="2"/>
+  <rect x="233" y="255" width="25" height="8" fill="#2c2c2c" rx="2"/>
+  
+  <!-- Línea 4 -->
+  <rect x="120" y="275" width="25" height="8" fill="#2c2c2c" rx="2"/>
+  <rect x="155" y="275" width="20" height="8" fill="#2c2c2c" rx="2"/>
+  
+  <!-- Línea 5 -->
+  <rect x="140" y="295" width="65" height="8" fill="#2c2c2c" rx="2"/>
+  <rect x="215" y="295" width="45" height="8" fill="#2c2c2c" rx="2"/>
+  
+  <!-- Línea 6 -->
+  <rect x="140" y="315" width="45" height="8" fill="#2c2c2c" rx="2"/>
+  <rect x="195" y="315" width="8" height="8" fill="#2c2c2c" rx="2"/>
+  <rect x="213" y="315" width="35" height="8" fill="#2c2c2c" rx="2"/>
+  
+  <!-- Línea 7 -->
+  <rect x="120" y="335" width="25" height="8" fill="#2c2c2c" rx="2"/>
+  <rect x="155" y="335" width="20" height="8" fill="#2c2c2c" rx="2"/>
+</svg>
