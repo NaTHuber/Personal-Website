@@ -7,15 +7,21 @@ This minimalist website reflects my interdisciplinary journey as a **physicist**
 
 ## Sections
 
-- **Inicio / Home**  
+- **Home / Inicio**  
   You will find and ilustration and symbolic navigation.
 
-- **Sobre mí / About Me**  
-  Background, thesis, experience and interests like Physics–ML, Quantum AI, and complex systems.
+- **About Me / Sobre mí**  
+  Background, thesis, experience and interests like Physics–ML, Quantum AI, and complex systems. 
 
-- [🧩 *In Progress*]  
-  - **Galería**: visual moments, travels, drawings  
-  - **Diagramas**: mind maps and conceptual models  
+- **Ideas**  
+  Projects I have worked on it  
+
+- **Gallery / Galería**  
+  Album that contains photos I've captured throughout different moments of my life.
+
+
+- [🧩 *In Progress*]    
+  - **Diagramms**: mind maps and conceptual models  
   - **Blog**: short essays, personal reflections and notes
 
 ---
